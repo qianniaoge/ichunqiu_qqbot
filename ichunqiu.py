@@ -110,9 +110,11 @@ def ichunqiu_sipder(url):
     content = request_url(url,'get','')
     soup = BeautifulSoup(content,'lxml')
     content_id = url.replace('https://bbs.ichunqiu.com/thread-','').replace('-1-1.html','')
-    title = soup.title.string
-    if '提示信息' == title:
+    title_ext = soup.title.string
+    if '提示信息' == title_ext:
         return
+    title = soup.find('span',attrs={'id':'thread_subject'}).text
+    title = title.replace('\r','').replace('\n','').replace('\t','')
     author = ''
     content_date = ''
     for string_tag in soup.find_all('strong'):
@@ -143,8 +145,8 @@ if __name__ == '__main__':
     main_pool = ThreadPool(MAX_THREAD)
     for i in range(20,33742+1):
         url = 'https://bbs.ichunqiu.com/thread-'+str(i)+'-1-1.html'
-        #ichunqiu_sipder(url)
-        main_pool.run(ichunqiu_sipder,(url,), callback=None)
+        ichunqiu_sipder(url)
+        #main_pool.run(ichunqiu_sipder,(url,), callback=None)
         #break
        # print url
     main_pool.close()
