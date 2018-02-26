@@ -143,10 +143,10 @@ def ichunqiu_sipder(url):
 
 if __name__ == '__main__':
     main_pool = ThreadPool(MAX_THREAD)
-    for i in range(20,33742+1):
+    for i in range(33742,34832+1):
         url = 'https://bbs.ichunqiu.com/thread-'+str(i)+'-1-1.html'
-        ichunqiu_sipder(url)
-        #main_pool.run(ichunqiu_sipder,(url,), callback=None)
+        #ichunqiu_sipder(url)
+        main_pool.run(ichunqiu_sipder,(url,), callback=None)
         #break
        # print url
     main_pool.close()
