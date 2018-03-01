@@ -199,7 +199,7 @@ def sleep_main(flag):
             url = "https://bbs.ichunqiu.com/forum.php?mod=forumdisplay&fid="+str(fid)+"&orderby=dateline&orderby=dateline&filter=author&page=1"
             spider_page(url)
         print 'start sleep -->',10*60+'s'
-        time.sleep(10)
+        time.sleep(10*60)
 
 #白帽子分享技术 59
 # 热门话题 49
