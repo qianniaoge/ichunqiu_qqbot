@@ -10,22 +10,6 @@ def onQQMessage(bot, contact, member, content):
         content = str(content).replace('[@ME]  ','')
         if '[author]' in content:
             content = content.replace('[author] ','')
-            sql = "SELECT title,url,author,content_date FROM ichunqiu_content WHERE author LIKE '%"+content+"%' ORDER BY content_date DESC LIMIT 0,3"
-            print sql
-            connection = pool.connection()
-            cursor = connection.cursor()
-            cursor.execute(sql)#!/usr/bin/python
-#-*- coding: UTF-8 -*-
-#coding=utf-8
-import sys
-import MySQLdb
-from DBUtils.PooledDB import PooledDB
-pool = PooledDB(MySQLdb,20,host='127.0.0.1',user='root',passwd='root',db='ichunqiu',port=3306,charset='utf8')
-def onQQMessage(bot, contact, member, content):
-    if '@ME' in content:
-        content = str(content).replace('[@ME]  ','')
-        if '[author]' in content:
-            content = content.replace('[author] ','')
             content = MySQLdb.escape_string(content)
             content = "%"+content+"%"
             connection = pool.connection()
