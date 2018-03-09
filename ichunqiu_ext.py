@@ -106,7 +106,7 @@ def request_url(url='',method='',data=''):
 ichunqiu爬虫
 @param url 爬虫url
 """
-def ichunqiu_sipder(url):
+def ichunqiu_sipder(url,fid):
     content = request_url(url,'get','')
     soup = BeautifulSoup(content,'lxml')
     content_id = url.replace('https://bbs.ichunqiu.com/thread-','').replace('-1-1.html','')
@@ -117,6 +117,9 @@ def ichunqiu_sipder(url):
     title = title.replace('\r','').replace('\n','').replace('\t','')
     author = ''
     content_date = ''
+    type_id = ''
+    a_hre_str = soup.find('a',class_='forum_type').get('href')
+    type_id = a_hre_str[a_hre_str.find('&typeid=')+len('&typeid='):]
     for string_tag in soup.find_all('strong'):
         if string_tag.find('a',class_='xi2'):
             author = string_tag.find('a',class_='xi2').string
@@ -137,9 +140,13 @@ def ichunqiu_sipder(url):
     title = MySQLdb.escape_string(title)
     author = MySQLdb.escape_string(author)
     content_date = MySQLdb.escape_string(content_date)
+    fid = str(fid)
+    fid = MySQLdb.escape_string(fid)
+    type_id = str(type_id)
+    type_id = MySQLdb.escape_string(type_id)
     connection = pool.connection()
     cursor = connection.cursor()
-    sql = "INSERT IGNORE INTO ichunqiu_content(id,content_id,title,url,author,content_date,content_see,content_comment,create_date,update_date) VALUES (DEFAULT,'"+content_id+"','"+title+"','"+url+"','"+author+"','"+content_date+"','"+content_see+"','"+content_comment+"',NOW(),NOW())"
+    sql = "REPLACE INTO ichunqiu_content(id,content_id,title,url,author,content_date,content_see,content_comment,fid,type_id,create_date,update_date) VALUES (DEFAULT,'"+content_id+"','"+title+"','"+url+"','"+author+"','"+content_date+"','"+content_see+"','"+content_comment+"','"+fid+"','"+type_id+"',NOW(),NOW())"
     cursor.execute(sql)
     connection.commit()
     cursor.close()
@@ -161,12 +168,13 @@ def spider_type(fid):
         page_count = int(page_div.find('label').find('span').string.replace(' ','').replace('/','').replace('共','').replace('页',''))
         for index in range(1,page_count+1):
             url = "https://bbs.ichunqiu.com/forum.php?mod=forumdisplay&fid="+str(fid)+"&orderby=dateline&orderby=dateline&filter=author&page="+str(index)
-            spider_page(url)
+            spider_page(url,fid)
+
 """
 爬虫每页文章信息
 @url 网站url
 """ 
-def spider_page(url):
+def spider_page(url,fid):
     content = request_url(url,'get','')
     soup = BeautifulSoup(content,'lxml')
     tbody_list = soup.find('table',id='threadlisttableid').find_all('tbody')
@@ -176,8 +184,8 @@ def spider_page(url):
         id = id.replace('separatorline','').replace('stickthread','').replace('normalthread','').replace('_','')
         if len(id) > 0 and id:
             content_url = 'https://bbs.ichunqiu.com/thread-'+str(id)+'-1-1.html'
-            #ichunqiu_sipder(content_url)
-            main_pool.run(ichunqiu_sipder,(content_url,),callback=None)
+            #ichunqiu_sipder(content_url,fid)
+            main_pool.run(ichunqiu_sipder,(content_url,fid,),callback=None)
     main_pool.close()
 
 """
@@ -197,7 +205,7 @@ def sleep_main(flag):
         main_arr = [59,49,60,61,81,77,65,42,76,75]
         for fid in main_arr:
             url = "https://bbs.ichunqiu.com/forum.php?mod=forumdisplay&fid="+str(fid)+"&orderby=dateline&orderby=dateline&filter=author&page=1"
-            spider_page(url)
+            spider_page(url,fid)
         print 'start sleep -->',10*60+'s'
         time.sleep(10*60)
 
@@ -212,8 +220,12 @@ def sleep_main(flag):
 # 竞赛训练 76
 # 课程学习中心 75
 if __name__ == '__main__':
+    #spider_main()
+    sleep_main(True)
+    '''
     main_pool = ThreadPool(5)
     main_pool.run(spider_main,(),callback=None)
     flag = True
     main_pool.run(sleep_main,(flag,),callback=None)
     main_pool.close()
+    '''
