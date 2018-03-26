@@ -202,11 +202,14 @@ def spider_main():
 def sleep_main(flag):
     while flag:
         print 'start spider while'
-        main_arr = [59,49,60,61,81,77,65,42,76,75]
-        for fid in main_arr:
-            url = "https://bbs.ichunqiu.com/forum.php?mod=forumdisplay&fid="+str(fid)+"&orderby=dateline&orderby=dateline&filter=author&page=1"
-            spider_page(url,fid)
-        print 'start sleep -->',10*60+'s'
+        try:
+            main_arr = [59,49,60,61,81,77,65,42,76,75]
+            for fid in main_arr:
+                url = "https://bbs.ichunqiu.com/forum.php?mod=forumdisplay&fid="+str(fid)+"&orderby=dateline&orderby=dateline&filter=author&page=1"
+                spider_page(url,fid)
+        except Exception,e:
+            pass
+        print 'start sleep -->',str(10*60)+'s'
         time.sleep(10*60)
 
 #白帽子分享技术 59
