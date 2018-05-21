@@ -35,4 +35,7 @@ i春秋社区机器人
 2018.2.4 修复机器人ＳＱＬ注入漏洞
 
 ## 相关文章
+
 https://bbs.ichunqiu.com/thread-34956-1-1.html
+
+https://bbs.ichunqiu.com/thread-33770-1-1.html
