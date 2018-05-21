@@ -4,7 +4,7 @@
 import os
 import sys
 from datetime import datetime
-from ichunqiu_ext import *
+from spider_ichunqiu_ext import *
 reload(sys)
 sys.setdefaultencoding("utf-8")
 

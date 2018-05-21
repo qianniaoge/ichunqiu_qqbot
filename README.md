@@ -2,7 +2,29 @@
 
 i春秋社区机器人
 
+一款基于[QQBot](https://github.com/pandolia/qqbot "https://github.com/pandolia/qqbot")的机器人
+
+文章链接：https://bbs.ichunqiu.com/thread-33770-1-1.html
+
+## 文件简介
+
+- spider_ichunqiu_class.py 爬虫i春秋课程信息
+
+- spider_ichunqiu_ext.py 定时爬虫i春秋社区文章，只爬虫每个板块的第一页
+
+- spider_ichunqiu.py 爬虫i春秋全部社区文章
+
+- ichunqiu.sql 数据库结构
+
+- sendQQ.py QQBot插件
+
+- ThreadPool.py 线程池
+
+- update_content.py 定时更新数据数据库与论坛内容保持同步
+
 ## 程序更新日志
+
+2018.5.21 修改一些细微的BUG
 
 2018.3.13 添加定时爬虫i春秋社区文章信息
 
@@ -12,5 +34,5 @@ i春秋社区机器人
 
 2018.2.4 修复机器人ＳＱＬ注入漏洞
 
-## 需求文章
+## 相关文章
 https://bbs.ichunqiu.com/thread-34956-1-1.html

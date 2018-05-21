@@ -55,10 +55,13 @@ USER_AGENTS = [
 ]
 # 请求超时时间
 REQUEST_TIME_OUT = 20
+# 最大的线程池
 MAX_THREAD = 20
 """
 reuqst请求发送
-:param url: 需要请求的url
+:@param url: 需要请求的url
+:@param method 请求方式
+:@param data 请求参数
 """
 def request_url(url='',method='',data=''):
     HEADER = {
@@ -105,6 +108,7 @@ def request_url(url='',method='',data=''):
 
 """
 ichunqiu课程爬虫
+:@param data 请求参数
 """
 def spider_main(data):
     url = "https://www.ichunqiu.com/courses/ajaxCourses"

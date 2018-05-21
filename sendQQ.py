@@ -1,9 +1,14 @@
 #!/usr/bin/python
 #-*- coding: UTF-8 -*-
 #coding=utf-8
+'''
+i春秋社区机器人插件
+link: https://bbs.ichunqiu.com/thread-33770-1-1.html
+'''
 import sys
 import MySQLdb
 from DBUtils.PooledDB import PooledDB
+# 数据库连接池
 pool = PooledDB(MySQLdb,20,host='127.0.0.1',user='root',passwd='root',db='ichunqiu',port=3306,charset='utf8')
 def onQQMessage(bot, contact, member, content):
     if '@ME' in content:
