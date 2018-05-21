@@ -2,7 +2,7 @@
 
 效果：
 
-![](https://github.com/0nise/ichunqiu_qqbot/images/images.png)
+[![](https://github.com/0nise/ichunqiu_qqbot/images/images.png)](https://github.com/0nise/ichunqiu_qqbot/images/images.png "演示图片")
 
 开发语言：python2.7
 
