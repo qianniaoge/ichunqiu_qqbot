@@ -1,6 +1,10 @@
-# ichunqiu_qqbot
+# i春秋社区机器人
 
-i春秋社区机器人
+效果：
+
+![](https://github.com/0nise/ichunqiu_qqbot/images/images.png)
+
+开发语言：python2.7
 
 一款基于[QQBot](https://github.com/pandolia/qqbot "https://github.com/pandolia/qqbot")的机器人
 
