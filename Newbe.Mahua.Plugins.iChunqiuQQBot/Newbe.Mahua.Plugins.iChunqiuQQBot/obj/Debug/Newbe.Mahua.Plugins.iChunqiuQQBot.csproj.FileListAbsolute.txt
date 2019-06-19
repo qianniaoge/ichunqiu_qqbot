@@ -1,0 +1,42 @@
+F:\work\visual studio 2017 Projects\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\obj\Debug\Newbe.Mahua.Plugins.iChunqiuQQBot.csproj.CoreCompileInputs.cache
+F:\work\visual studio 2017 Projects\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Newbe.Mahua.Plugins.iChunqiuQQBot.dll
+F:\work\visual studio 2017 Projects\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Newbe.Mahua.Plugins.iChunqiuQQBot.pdb
+F:\work\visual studio 2017 Projects\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Autofac.dll
+F:\work\visual studio 2017 Projects\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\MediatR.dll
+F:\work\visual studio 2017 Projects\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\MessagePack.dll
+F:\work\visual studio 2017 Projects\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Newbe.Mahua.dll
+F:\work\visual studio 2017 Projects\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Newbe.Mahua.PluginLoader.dll
+F:\work\visual studio 2017 Projects\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\work\visual studio 2017 Projects\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\System.ValueTuple.dll
+F:\work\visual studio 2017 Projects\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Newbe.Mahua.pdb
+F:\work\visual studio 2017 Projects\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Newbe.Mahua.xml
+F:\work\visual studio 2017 Projects\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Newbe.Mahua.PluginLoader.pdb
+F:\work\visual studio 2017 Projects\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\obj\Debug\Newbe.Mahua.Plugins.iChunqiuQQBot.dll
+F:\work\visual studio 2017 Projects\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\obj\Debug\Newbe.Mahua.Plugins.iChunqiuQQBot.pdb
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Newbe.Mahua.Plugins.iChunqiuQQBot.dll
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Newbe.Mahua.Plugins.iChunqiuQQBot.pdb
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Autofac.dll
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\MediatR.dll
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\MessagePack.dll
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Newbe.Mahua.dll
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Newbe.Mahua.PluginLoader.dll
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\System.ValueTuple.dll
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Newbe.Mahua.pdb
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Newbe.Mahua.xml
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Newbe.Mahua.PluginLoader.pdb
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\obj\Debug\Newbe.Mahua.Plugins.iChunqiuQQBot.csproj.CoreCompileInputs.cache
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\obj\Debug\Newbe.Mahua.Plugins.iChunqiuQQBot.dll
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\obj\Debug\Newbe.Mahua.Plugins.iChunqiuQQBot.pdb
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\MySql.Data.dll
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\MySql.Data.xml
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Newtonsoft.Json.dll
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\StackExchange.Redis.dll
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Newtonsoft.Json.xml
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\StackExchange.Redis.xml
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\obj\Debug\Newbe.Mahua.Plugins.iChunqiuQQBot.csproj.CopyComplete
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Newbe.Mahua.Plugins.iChunqiuQQBot.dll.config
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\Autofac.xml
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\bin\Debug\System.ValueTuple.xml
+F:\work\VisualStudio\Newbe.Mahua.Plugins.iChunqiuQQBot\Newbe.Mahua.Plugins.iChunqiuQQBot\obj\Debug\Newbe.Mahua.Plugins.iChunqiuQQBot.csprojResolveAssemblyReference.cache
