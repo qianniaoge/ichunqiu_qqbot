@@ -3,7 +3,8 @@
 [![stars](https://img.shields.io/github/stars/0nise/ichunqiu_qqbot.svg)](https://github.com/0nise/fofa-java/stargazers) 
 [![license](https://img.shields.io/github/license/0nise/ichunqiu_qqbot.svg)](https://github.com/0nise/fofa-java/blob/master/LICENSE)
 
-> i春秋社区机器人`2018年02月04日`服务于i春秋社区，每日文章推送、文章查询、魔法币查询、作者信息查询、i春秋社区作家团奖金余额查询、i春秋社区奖金排行榜、i春秋课程查询等一些列功能。根据不完全统计使用人数已经超过`3.5万`，使用机器人次数达到`20万`，最大覆盖`700+`个群。自`2019年6月13日`起i春秋社区相关的功能全部关闭，i春秋社区机器人正式宣布开源，非常感谢对i春秋社区机器人的支持,同时i春秋社区机器正式更名为`Alpha机器人`，对于新的机器人正在构思中，有想法、建议的可以提交到[Issues](https://github.com/0nise/ichunqiu_qqbot/issues)中，非常感谢。
+> i春秋社区机器人自`2018年02月04日`开始服务于i春秋社区，每日文章推送、文章查询、魔法币查询、作者信息查询、作家团奖金余额查询、奖金排行榜、i春秋课程查询等一列功能。据不完全统计，使用人数已经超过`3.5万`，使用次数达到`20万`，最大覆盖`700+`个群。
+> 自`2019年6月13日`起i春秋社区相关的功能全部关闭，i春秋社区机器人宣布正式开源，非常感谢对i春秋社区机器人的支持。同时i春秋社区机器正式更名为`Alpha机器人`，对于新的机器人正在构思中，有想法、建议的可以提交到[Issues](https://github.com/0nise/ichunqiu_qqbot/issues)中，非常感谢。
 
 - 非常感谢期间的运维[NS-Sp4ce](https://github.com/NS-Sp4ce)。
 
