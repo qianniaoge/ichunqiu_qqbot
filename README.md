@@ -1,7 +1,7 @@
 # i春秋社区机器人
 
-[![stars](https://img.shields.io/github/stars/0nise/ichunqiu_qqbot.svg)](https://github.com/0nise/fofa-java/stargazers) 
-[![license](https://img.shields.io/github/license/0nise/ichunqiu_qqbot.svg)](https://github.com/0nise/fofa-java/blob/master/LICENSE)
+[![stars](https://img.shields.io/github/stars/0nise/ichunqiu_qqbot.svg)](https://github.com/0nise/ichunqiu_qqbot/stargazers) 
+[![license](https://img.shields.io/github/license/0nise/ichunqiu_qqbot.svg)](https://github.com/0nise/ichunqiu_qqbot/blob/master/LICENSE)
 
 > i春秋社区机器人自`2018年02月04日`开始服务于i春秋社区，每日文章推送、文章查询、魔法币查询、作者信息查询、作家团奖金余额查询、奖金排行榜、i春秋课程查询等一列功能。据不完全统计，使用人数已经超过`3.5万`，使用次数达到`20万`，最大覆盖`700+`个群。
 
